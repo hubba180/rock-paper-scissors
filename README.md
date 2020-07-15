@@ -1,12 +1,11 @@
 #### _An experiment into red green refactoring with C sharp, 2020 ver 1.0.0_
 
 #### By _Ian Gregg , Kyle Hubbard & Megan Hepner_
-[To-Do-List-C-Sharp](https://github.com/hubba180/rock-paper-scissors)
+[Rock Paper Scissors](https://github.com/hubba180/rock-paper-scissors)
 
 ## Description
 
-_This application is utilizing the C sharp programming language to understand the test driven enviorment through red green Refactoring with Palindromes. A palindrome is any word, phrase, number, or other sequence of characters that reads the same both backward or forward._
-_This application is utilizing the C sharp programming language to understand the test driven enviorment through red green Refactoring with Palindromes. For creating a to do list._
+_This application is utilizing the C sharp programming language and TDD to reconstruct the game Rock Paper Scissors._
 
 ## Setup/Installation Requirements
 
@@ -22,6 +21,8 @@ __
 ## Specs
 | Behavior    | Input | Output |
 | :---------- | ----- | -----: |
+
+
 ## Known Bugs
 _No known bugs_
 ## Support and contact details
