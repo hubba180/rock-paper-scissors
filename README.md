@@ -21,6 +21,7 @@ __
 ## Specs
 | Behavior    | Input | Output |
 | :---------- | ----- | -----: |
+| Should instantiate a gameObject labled as either "Rock", "Paper", or "Scissors". | "Rock" | { type: "Rock"; } |
 
 
 ## Known Bugs
