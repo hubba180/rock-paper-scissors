@@ -10,14 +10,16 @@ namespace RockPaperScissors.tests
     [TestMethod]
     public void GameObjectConstructor_CreatesInstanceOfGameObject_GameObject()
     {
-      GameObject TestObject = new GameObject();
+      GameObject TestObject = new GameObject("rock");
       Assert.AreEqual(typeof(GameObject), TestObject.GetType());
     }
 
+    [TestMethod]
     public void GetType_GameObjectSavesType_String() 
     {
-      GameObject TestObject = new GameObject("Rock");
-      Assert.AreEqual("Rock", GameObject.Type);
+      string rock = "Rock";
+      GameObject TestObject = new GameObject(rock);
+      Assert.AreEqual("Rock", TestObject.GetGameType());
     }
   }
 }
