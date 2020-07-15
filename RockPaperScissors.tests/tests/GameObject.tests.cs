@@ -22,6 +22,11 @@ namespace RockPaperScissors.tests
       Assert.AreEqual("Rock", TestObject.GetGameType());
     }
     [TestMethod]
-    public void GetType_
+    public void GetType_WinningTheGame_String()
+    {
+      int winning = 1;
+      Program TestMethod = new Program();
+      Assert.AreEqual("Winner", TestMethod.Winning(winning));
+    }
   }
 }
