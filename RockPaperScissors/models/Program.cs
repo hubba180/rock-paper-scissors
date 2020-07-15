@@ -6,19 +6,8 @@ namespace RockPaperScissors
   {
     public static void Main() 
     {
-      
+      Game ourGame = new Game();
     }
-    public string Winning(int Num)
-    {
-      if (Num>0){
-        return "Winner";
-      } else {
-        return "Next Player";
-      };
-    }
-    public void Turn()
-    {
-
-    }
+    
   }
 }
