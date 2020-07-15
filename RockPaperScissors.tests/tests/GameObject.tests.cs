@@ -21,5 +21,7 @@ namespace RockPaperScissors.tests
       GameObject TestObject = new GameObject(rock);
       Assert.AreEqual("Rock", TestObject.GetGameType());
     }
+    [TestMethod]
+    public void GetType_
   }
 }

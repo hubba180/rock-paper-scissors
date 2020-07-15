@@ -1,3 +1,5 @@
+# Rock Paper Scissors
+
 #### _An experiment into red green refactoring with C sharp, 2020 ver 1.0.0_
 
 #### By _Ian Gregg , Kyle Hubbard & Megan Hepner_
@@ -21,7 +23,8 @@ __
 ## Specs
 | Behavior    | Input | Output |
 | :---------- | ----- | -----: |
-| Should instantiate a gameObject labled as either "Rock", "Paper", or "Scissors". | "Rock" | { type: "Rock"; } |
+| Should instantiate a GameObject with a type of either "Rock", "Paper", or "Scissors". | "Rock" | { type: "Rock"; } |
+| Should compare 2 GameObject types and determine which will win| "Rock" vs "Scissors | "Rock"
 
 
 ## Known Bugs
